@@ -1,0 +1,266 @@
+@media only screen and (max-width: 870px) {
+    .reg-menu img {
+        height: 49px;
+        width: 49px;
+    }
+    
+    .reg-menu h2 {
+        padding-right: 15px;
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .reg-menu img {
+        height: 49px;
+        width: 49px;
+    }
+    
+    .reg-menu h2 {
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .reg-menu h2 {
+        font-size: 16px;
+    }
+
+    .logo img {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .reg-menu {
+        top: 65px; 
+        right: 50px;
+    }
+
+    .reg-menu h2 {
+        display: none;
+    }
+
+    .human img{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 595px) {
+    .reg-menu img {
+        height: 42px;
+        width: 42px;
+    }
+
+    .card-bg h1 {
+        font-size: 32px;
+    }
+    
+    .weather-city {
+        font-size: 32px;
+    }
+
+    .degree {
+        font-size: 35px;
+    }
+    
+    .card-weather {
+        padding: 12px;
+    }
+
+    .human h2 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .logo img {
+        width: 190px;
+    }
+
+    .reg-menu {
+        top: 50px; 
+        right: 20px;
+    }
+
+    .reg-menu img {
+        height: 34px;
+        width: 34px;
+    }
+    
+    .card-bg h1 {
+        font-size: 28px;
+    }
+    
+    .weather-city {
+        font-size: 28px;
+    }
+
+    .degree {
+        font-size: 31px;
+    }
+    
+    .human h2 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .card-bg h1 {
+        font-size: 28px;
+    }
+
+    .weather-city {
+        font-size: 28px;
+    }
+
+    .human img {
+        width: 270px;
+    }
+}
+
+
+/* --- MEDIA WIDTH --- */
+
+
+
+@media only screen and (max-height: 910px) {
+    .logo {
+        top: 0px; 
+        left: 50px;
+    }
+    
+    .reg-menu {
+        top: 70px; 
+    }
+    
+    .human img{
+        width: 300px;
+    }
+
+    .card-bg h1 {
+        font-size: 32px;
+    }
+    
+    .weather-city {
+        font-size: 32px;
+    }
+
+    .degree {
+        font-size: 35px;
+    }
+    
+    .card-weather {
+        padding: 12px;
+    }
+
+    .human h2 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-height: 840px)  {
+    .card-bg h1 {
+        font-size: 26px;
+    }
+
+    .weather-city {
+        font-size: 26px;
+    }
+
+    .human h2 {
+        font-size: 18px;
+    }
+
+    .human img {
+        width: 270px;
+    }  
+
+    .reg-menu {
+        top: 45px; 
+    }
+}
+
+@media only screen and (max-height: 770px) {
+    .human img {
+        width: 250px;
+    }  
+
+    .card-bg h1 {
+        font-size: 23px;
+    }
+    
+    .weather-city {
+        font-size: 23px;
+    }
+
+    .degree {
+        font-size: 30px;
+    }
+    
+    .card-weather {
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-height: 720px) {
+    .human img {
+        width: 220px;
+    }  
+}
+
+@media only screen and (max-height: 690px) {
+    .human img {
+        width: 190px;
+    }  
+
+    .card-bg h1 {
+        font-size: 21px;
+    }
+    
+    .weather-city {
+        font-size: 21px;
+    }
+
+    .degree {
+        font-size: 28px;
+    }
+    
+    .card-weather {
+        padding: 6px;
+    }
+
+    .human h2 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-height: 635px) {
+    .human img {
+        width: 170px;
+    } 
+
+    .card-bg {
+        margin-top: 100px;
+    }
+
+    .card-bg h1 {
+        font-size: 18px;
+    }
+    
+    .weather-city {
+        font-size: 18px;
+    }
+
+    .degree {
+        font-size: 25px;
+    }
+    
+    .card-weather {
+        padding: 5px;
+    }
+
+    .human h2 {
+        font-size: 12px;
+    }
+}
