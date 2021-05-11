@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWTC? - Какая сейчас погода, сыр?</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="shortcut icon" href="assets/img/icon-weather.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="video-bg">
+        <video src="assets/css/weather-wrapper/weather.mp4" type="video/mp4" autoplay muted loop></video>
+        <div class="effects"></div>
+        <div class="video-bg__content">
+            <header>
+                <div class="logo">
+                    <a href=""><img src="assets/img/logo_ru.png" alt=""></a>
+                </div>
+                <select class="city">
+                    <option value="501175">Rostov-na-Donu</option>
+                    <option value="524894">Moscow</option>
+                    <option value="625144">Minsk</option>
+                    <option value="703448">Kyiv</option>
+                    <select>
+
+            </header>
+            <main>
+                <div class="card-bg">
+                    <h1>Погода в городе</h1>
+                    <div class="weather-city">
+                        <h2>-</h2>
+                    </div>
+                    <div class="degree">
+                        <h2>-</h2>
+                    </div>
+                    <div class="card-weather">
+                        <img src="assets/img/icon-weather.svg" alt="Icon Weather">
+                    </div>
+                    <div class="human">
+                        <h2>Скорость ветра</h2>
+                        <h2 class="wind"></h2>
+                        <h2>Влажность</h2>
+                        <h2 class="humidity"></h2>
+                        <h2>Давление</h2>
+                        <h2 class="pressure"></h2>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <footer>
+    </footer>
+
+    <script src="assets/script/main.js"></script>
+</body>
+
+</html>
