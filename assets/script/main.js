@@ -19,7 +19,10 @@ function showWeather(data) {
     document.querySelector('.wind').innerHTML = data.wind.speed
     document.querySelector('.humidity').innerHTML = data.main.humidity
     document.querySelector('.pressure').innerHTML = data.main.pressure
+    document.querySelector('.card-weather').innerHTML = '<img src="https://openweathermap.org/img/wn/' + data.weather[0]['icon'] + '@2x.png" width="120px">'
 }
 
 getWeather();
 document.querySelector('.city').onchange = getWeather;
+
+
