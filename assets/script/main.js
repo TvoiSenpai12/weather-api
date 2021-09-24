@@ -13,7 +13,6 @@ function getWeather() {
 }
 
 function showWeather(data) {
-    console.log(data);
     document.querySelector('.weather-city').textContent = data.name
     document.querySelector('.degree').innerHTML = Math.round(data.main.temp) + '&deg;'
     document.querySelector('.wind').innerHTML = data.wind.speed
