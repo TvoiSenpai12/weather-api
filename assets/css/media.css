@@ -52,11 +52,14 @@
     .human h2 {
         font-size: 22px;
     }
+    .logo img{
+        width: 150px;
+    }
 }
 
 @media only screen and (max-width: 390px) {
     .logo img {
-        width: 190px;
+        width: 130px;
     }
 
     .city {
@@ -79,6 +82,10 @@
     .human h2 {
         font-size: 18px;
     }
+
+    .city {
+        font-size: 11px;
+    }
 }
 
 @media only screen and (max-width: 325px) {
@@ -95,6 +102,14 @@
     }
 }
 
+@media only screen and (max-width: 290px) {
+    .logo img {
+        width: 90px;
+    }
+    .city {
+        font-size: 10px;
+    }
+}
 
 /* --- MEDIA WIDTH --- */
 
